@@ -2,16 +2,22 @@
 
 
 [[projects]]
-  branch = "master"
-  digest = "1:2540e54bdc6658ba4f82d32f016fdc3f7ff663749dd890d5567f6f10febcfb82"
+  branch = "update-element"
+  digest = "1:64ffd54da14df94bc8d7934a2ba851a16662e1a9496d254cbe1d0a00ec472851"
   name = "github.com/syumai/go-hyperscript"
-  packages = ["."]
+  packages = [
+    "dom",
+    "hyperscript",
+  ]
   pruneopts = "UT"
-  revision = "b635cb4d23b8037900fbccdb93d5d13048746cb3"
+  revision = "60ebd02aae4f0800f3c95a93757861eb1edf123d"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = ["github.com/syumai/go-hyperscript"]
+  input-imports = [
+    "github.com/syumai/go-hyperscript/dom",
+    "github.com/syumai/go-hyperscript/hyperscript",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1

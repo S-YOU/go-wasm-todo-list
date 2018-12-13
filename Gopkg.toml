@@ -30,5 +30,5 @@
   unused-packages = true
 
 [[constraint]]
-  branch = "master"
+  branch = "update-element"
   name = "github.com/syumai/go-hyperscript"
